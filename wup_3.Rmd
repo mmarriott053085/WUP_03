@@ -28,13 +28,9 @@ basicCN <- ggplot(davisdata,aes(y=alcohol,x=Seat))
 basicCN + geom_boxplot()
 ```
   
-  
-### get fancy  
-
-```{r}
-basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='errorbar') + labs(title="Fancy notch boxplot \n with 2 lines")
-```
-
+  The data from the boxplot displays the box representing the students sitting in the back to be much larger than the front and middle sections, suggesting that students who choose to sit in the back have a higher likelihood of consuming alcohol.
+ 
+ 
 ## Numerical Summarys 
 
 ## Inferential Tests
