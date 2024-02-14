@@ -41,6 +41,18 @@ favstats(alcohol~Seat,data=ucdavis1)
 
 ## Inferential Tests
 
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
+The graph displays a significant result, as the numbers are much smaller than 0.05.
+
+```{r}
+plot(TukeyHSD(model1))
+```
+
+This graph shows the amount of differences where a students sits drinks. The data presented in the graph shows, students who sit in the front and students who sit in the back drink roughly about the same or what what be considered a moderate amount of drinks per week. However, the students who sit in the back consume a larger amount of drinks per week than those who sit in the front and middle.
+
 ## Conclusions
 
 
