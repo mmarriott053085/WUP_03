@@ -33,6 +33,12 @@ basicCN + geom_boxplot()
  
 ## Numerical Summarys 
 
+```{r}
+favstats(alcohol~Seat,data=ucdavis1)
+```
+ The numerical data presented, shows the number of drinks consumed  by students in the different seating areas of the class per week, showing the students seated in the back consumed more than those seated in the middle and the front. The students seated in the front consumed 1.78 drinks per week, the students seated in the middle consumed 3.33 drinks, and those in the back consumed 8.55 drinks per week.
+
+
 ## Inferential Tests
 
 ## Conclusions
