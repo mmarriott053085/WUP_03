@@ -55,4 +55,5 @@ This graph shows the amount of differences where a students sits drinks. The dat
 
 ## Conclusions
 
+We collected and analyzed data using a boxplot, numerical data, and inferential test of the students who sit in the front, middle, and back of the classroom. The data concluded those who sit in the back have a higher likelihood of drinking, than those who sit in the front or middle. While those who sit in the font and middle have low to moderate drinking levels.
 
